@@ -4,9 +4,6 @@ pipeline{
     DOCKER_CRED = credentials("dockerID")
     IMAGE_NAME = "cslikhitha/demomvn"
   }
-  triggers{
-    cron ('* * * * *')
-  }
   stages{
     stage('checkout'){
       steps{
