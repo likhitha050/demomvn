@@ -1,5 +1,5 @@
 pipeline{
-  agentany
+  agent any
   environment{
     DOCKER_CRED = credentials("dockerID")
     IMAGE_NAME = "cslikhitha/demomvn"
